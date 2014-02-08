@@ -13,13 +13,12 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>LAPPS Tests</name>
     <description>Services that cab be deployed to test clients</description>
-
+    <packaging>war</packaging>
     <properties>
         <lapps.version>1.0.1</lapps.version>
     </properties>
     <build>
-        <plugins>
-        </plugins>
+        <finalName>TestServices#${project.version}</finalName>
     </build>
     <dependencies>
         <dependency>
@@ -35,7 +34,7 @@
         <dependency>
             <groupId>org.lappsgrid</groupId>
             <artifactId>discriminator</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.1</version>
         </dependency>
     </dependencies>
 </project>
