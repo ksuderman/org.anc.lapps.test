@@ -1,1 +1,6 @@
 target/
+*.war
+*.jar
+*.class
+
+*.iml
